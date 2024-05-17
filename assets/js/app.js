@@ -48,6 +48,8 @@ window.addEventListener('scroll', function() {
 });
 
 
+
+
 window.onscroll = function() {
     if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
         upbtn.style.display = "block";
@@ -58,5 +60,6 @@ window.onscroll = function() {
 upbtn.addEventListener("click", (e) => {
     window.scrollTo(0, 0);
 })
+
 
 
