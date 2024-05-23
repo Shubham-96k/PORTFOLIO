@@ -1,6 +1,6 @@
 @media all and (max-width: 576px){
     .header{
-       height: 100vh; 
+       height: 90vh; 
     }
     .mainnavbar .nav-item{
         margin-bottom: 10px;

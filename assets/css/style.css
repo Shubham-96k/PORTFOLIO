@@ -102,12 +102,13 @@ body{
     color: var(--color-white);
     text-transform: uppercase;
     border: 2px solid var(--color-white);
-    padding: 10px 20px;
+    padding: 8px 7px 5px 7px;
     font-weight: bold;
     background: transparent;
     position: relative;
     transition: all .3s ease-in-out;
     overflow: hidden;
+    font-size: 1rem;
     z-index: 2;
     cursor: pointer;
 } 
@@ -131,16 +132,13 @@ body{
     background-color: var(--color-border-sec);
     transform: scale(.9);
 }
-
+.social-connect{
+    margin-bottom: 0px;
+}
 .social-connect li{
     display: inline-block;
     margin-left: 15px;
-    padding: 10px;
-}
-
-.social-connect li:nth-child(1),
-.social-connect li:nth-child(4){
-    transform : translateY(-12px)
+    margin-top : 10px;
 }
 
 .social-connect li a{
@@ -159,6 +157,7 @@ body{
 .mainTitle {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0.5rem;
 }
 
 .mainTitle p{
