@@ -8,7 +8,7 @@ ul{
     height: 60%;
 }
 
-.about,.work,.skill{
+.about,.work,.skill,.projects{
     min-height: 90vh;
     padding: 5rem 0;
     display : flex;

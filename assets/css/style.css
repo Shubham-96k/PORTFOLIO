@@ -137,8 +137,7 @@ body{
 }
 .social-connect li{
     display: inline-block;
-    margin-left: 15px;
-    margin-top : 10px;
+    margin : 10px 15px;
 }
 
 .social-connect li a{
@@ -333,6 +332,38 @@ article .icon{
     height: 25px;
     margin: 0 auto;
 }
+
+/* ########### CSS FOR PROJECT STARTS HERE ########## */
+
+.allproject:hover .project:not(:hover){
+    transform: scale(0.9);
+    filter: blur(2px);
+}
+.project.card{
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.project.card a{
+    display: inline-block;
+    color : var(--border-grey);
+    text-decoration: none;
+}
+.project.card:hover{
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border : 1px solid transparent;
+    transform: translateY(-15px);
+}
+.project .card-body{
+    padding: 0;
+}
+.project .card-body img{
+    height: 100%;
+    width: 100%;
+}
+.project .card-footer{
+    text-align: justify;
+}
+
 
 
 /* ########### CSS FOR CONTACT STARTS HERE ########## */
